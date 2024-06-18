@@ -1,3 +1,5 @@
+use std::num::ParseIntError;
+
 pub fn add() {
     let nums = getoptions();
     println!("The awnser is {}", nums[0] + nums[1]);
